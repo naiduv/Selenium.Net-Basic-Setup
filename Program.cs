@@ -1,4 +1,5 @@
-﻿using System.Drawing.Imaging;
+﻿using System;
+using System.Drawing.Imaging;
 using OpenQA.Selenium.Chrome;
 
 
@@ -26,7 +27,7 @@ namespace Blogger
                 // and click the login button
                 loginButton.Click();
 
-                ReadKey();                
+                Console.ReadKey();                
             }
         }
     }
